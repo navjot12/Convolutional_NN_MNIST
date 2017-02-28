@@ -13,8 +13,8 @@ The output of the python script can be found in the **results.txt** file.
 ### Result Summary:
 The validation accuracy reached *97.18%* just after *10 epochs*. After **25 epochs**, the training accuracy was 98.37% while validation accuracy was **97.86%**.
 
-Accuracy Progression:
+Accuracy Progression:  
 ![alt text](https://github.com/navjot12/Convolutional_NN_MNIST/blob/master/accuracy.png "Accuracy")
 
-Loss Progression:
+Loss Progression:  
 ![alt text](https://github.com/navjot12/Convolutional_NN_MNIST/blob/master/loss.png "Loss")
