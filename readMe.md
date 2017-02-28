@@ -8,7 +8,13 @@ This python script uses Keras based on Theano backend to train for categorizatio
 
 The network has been applied on MNIST dataset (- a collection of 42000 handwritten digit (0-9) images) with a quarter of the dataset used for validation.
 
-The output of the python script can be found in the results.txt file. The progression of accuracy and loss are graphically represented in images.
+The output of the python script can be found in the **results.txt** file.
 
-Result Summary:
-The validation accuracy reached 97.18% just after 10 epochs. After 25 epochs, the training accuracy was 98.37% while validation accuracy was 97.86%.
+### Result Summary:
+The validation accuracy reached *97.18%* just after *10 epochs*. After **25 epochs**, the training accuracy was 98.37% while validation accuracy was **97.86%**.
+
+Accuracy Progression:
+![alt text](https://github.com/navjot12/Convolutional_NN_MNIST/blob/master/accuracy.png "Accuracy")
+
+Loss Progression:
+![alt text](https://github.com/navjot12/Convolutional_NN_MNIST/blob/master/loss.png "Loss")
