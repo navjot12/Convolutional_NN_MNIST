@@ -6,7 +6,7 @@ This python script uses Keras based on Theano backend to train for categorizatio
 	3. Second Hidden layer with 8 kernels of 3x3 dimension - pooled into 3x3 batches  
 	4. Output layer with 10 neurons - representing the 10 output classes (digits) for MNIST dataset. 
 
-The network has been applied on MNIST dataset (- a collection of 42000 handwritten digit (0-9) images) with a quarter of the dataset used for validation.
+The network has been applied on MNIST dataset (- a collection of 42000 handwritten digit (0-9) images) with a quarter of the dataset used for validation. Since the dataset is too heavy to be uploaded on github (76.8 MB), it can be found at https://goo.gl/Wyl4hX.
 
 The output of the python script can be found in the **results.txt** file.
 
