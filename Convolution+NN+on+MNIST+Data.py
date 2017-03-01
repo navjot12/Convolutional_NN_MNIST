@@ -5,6 +5,7 @@
 
 import numpy as np
 from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt
 import pandas as pd
 
 import keras
@@ -75,12 +76,12 @@ hist = model.fit(X_train, y_train, nb_epoch = 25, shuffle=True, batch_size = 100
 # Result analysis
 
 plt.figure(0)
-plt.plot(hist.history['acc'])
-plt.plot(hist.history['val_acc'])
+plt.plot(hist.history['acc'], 'b')
+plt.plot(hist.history['val_acc'], 'r')
 
 plt.figure(1)
-plt.plot(hist.history['loss'])
-plt.plot(hist.history['val_loss'])
+plt.plot(hist.history['loss'], 'b')
+plt.plot(hist.history['val_loss'], 'r')
 
 plt.show()
 
